@@ -8,29 +8,38 @@
 
 <body>
     <img src="general_assembly_logo.png">
-    <p style=font-size:30><strong>General Assembly Account Creation
-    <strong></p>
+    <h1>General Assembly Account Creation
+    <strong></h1>
 
     <p>Welcome to the General Assembly. General Assembly is a global
     institution training people all over the world in today's top
     technologies.
-    <br><br>
+    <br>
     Please fill out the information below to create your General Assembly
     account. Let us know what city you're in and what course
     you're taking. This list is for all students. Please tell us what
     city you're in and whether you're taking the Immersive User Experience (UX)
     course or the Immersive Web Development course.</p>
 
-    <form class="City:" action="#" method="post">
-        <label for="name">City</label><input type="dropdown" name="name" value="Hong Kong
-         ,London,Los Angeles,New York,Portland,San Francisco,Seattle,Singapore"><br>
-         <label for="name">Course</label><input type="radio" name="UX" placeholder="UX" value="UX">UX</input>
-         <input type="radio" name="name" value="Web Dev">Web Dev</input><br>
-         <label for="">Name</label><input id="name" input type="type" name="name" value=""><br>
-         <label for="">Email</label><input type="email" placeholder="type email here" required><br>
-         <label for="">Password</label><input type="passowrd" name="name" value=""><br>
-         <input type="checkbox" name="name" value=""><label for="">Yes, subscribe me to the General Assembly student newsletter</label><br>
-         <input type="button" name="Subscribe" value="Subscribe">
+    <form action="success.html" method="get">
+        <label for="name">City
+          <select name="city">
+          <option>Hong Kong</option>
+          <option>London,</option>
+          <option>Los Angeles,</option>
+          <option>New York,</option>
+          <option>Portland,</option>
+          <option>San Francisco,</option>
+          <option>Seattle,</option>
+          <option>Singapore</option>
+          </select></label><br><br>
+         <label for="name">Course<input type="radio" name="chooseone" value="UX">UX
+         <input type="radio" name="chooseone" value="Web Dev">Web Dev</label><br><br>
+         <label for="name">Name</label><input id="name" input type="type" name="name" value=""></label><br><br>
+         <label for="email">Email</label><input type="email" placeholder="type email here" required></label><br><br>
+         <label for="password">Password</label><input onClick="" type="password" name="name" value=""></label><br><br>
+         <input type="checkbox" name="name" value=""><label for="newsletter">Yes, subscribe me to the General Assembly student newsletter</label><br><br>
+         <input type="Submit" name="subscribe" value="Subscribe">
     </form>
 
 
